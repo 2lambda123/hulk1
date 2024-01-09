@@ -1,0 +1,374 @@
+repo_name: 2lambda123/hulk1
+report_id: 1a2f2584aea91fda9aa811125130e885
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:31+00:00'
+requested_by: chrisdone
+provider: github
+branch: master
+detected_tools_count: 28
+tools:
+- name: Haskell
+  description: An advanced purely-functional programming language
+  website_url: http://www.haskell.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1069/oCgm29k9.png
+  detection_source_url: https://github.com/2lambda123/hulk1
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2013-11-03 14:42:11.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2011-01-26 20:41:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/hulk1
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2011-01-26 20:41:13.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2011-01-26 20:41:13.000000000 Z
+- name: aeson
+  description: Fast JSON parsing and encoding in Haskell
+  website_url: https://hackage.haskell.org/package/aeson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7354/oCgm29k9_normal.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: ConfigFile
+  description: |-
+    Parser and writer for handling sectioned config files in
+    Haskell.
+
+    The ConfigFile module works with configuration files in a standard
+    format that is easy for the user to edit
+  package_url: http://hackage.haskell.org/ConfigFile
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: Crypto
+  package_url: http://hackage.haskell.org/Crypto
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: aeson
+  description: |-
+    A JSON parsing and encoding library optimized for ease of use
+    and high performance.
+
+    To get started
+  package_url: http://hackage.haskell.org/aeson
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: attoparsec
+  description: A fast parser combinator library
+  package_url: http://hackage.haskell.org/attoparsec
+  version: '0.8'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: base
+  package_url: http://hackage.haskell.org/base
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: bytestring
+  description: An efficient compact
+  package_url: http://hackage.haskell.org/bytestring
+  version: 0.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: bytestring-show
+  description: Efficient conversion of values into readable byte strings
+  package_url: http://hackage.haskell.org/bytestring-show
+  version: 0.3.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: case-insensitive
+  description: |-
+    The module Data.CaseInsensitive provides the CI type
+    constructor which can be parameterised by a string-like
+    type like: String, ByteString, Text,
+    etc
+  package_url: http://hackage.haskell.org/case-insensitive
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: cmdargs
+  description: This library provides an easy way to define command line parsers
+  package_url: http://hackage.haskell.org/cmdargs
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: containers
+  description: Assorted concrete container types
+  package_url: http://hackage.haskell.org/containers
+  version: 0.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: directory
+  description: |-
+    This library provides a basic set of operations for manipulating files and
+    directories in a portable way
+  package_url: http://hackage.haskell.org/directory
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: filepath
+  description: This package provides functionality for manipulating FilePath values,
+    and is shipped with GHC
+  package_url: http://hackage.haskell.org/filepath
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: ghc-prim
+  package_url: http://hackage.haskell.org/ghc-prim
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:14:35.000000000 Z
+- name: monadLib
+  description: A collection of monad transformers
+  package_url: http://hackage.haskell.org/monadLib
+  version: 3.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/fastirc-0.2.0/fastirc.cabal
+  detection_source: fastirc-0.2.0/fastirc.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2017-02-17 14:22:29.000000000 Z
+- name: mtl
+  description: MTL is a collection of monad classes
+  package_url: http://hackage.haskell.org/mtl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2011-01-26 20:41:13.000000000 Z
+- name: network
+  description: |-
+    This package provides a low-level networking interface.
+
+    Other packages provide higher level interfaces:
+
+    connection
+
+    hookup
+
+    network-simple
+
+    network seeks to provide a cross-pl...
+  package_url: http://hackage.haskell.org/network
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: split
+  description: |-
+    A collection of various methods for splitting
+    lists into parts, akin to the "split" function
+    found in several mainstream languages
+  package_url: http://hackage.haskell.org/split
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: text
+  description: An efficient packed, immutable Unicode text type
+  package_url: http://hackage.haskell.org/text
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: time
+  description: A time library
+  package_url: http://hackage.haskell.org/time
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: unix
+  description: POSIX functionality
+  package_url: http://hackage.haskell.org/unix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
+- name: utf8-string
+  description: A UTF8 layer for Strings
+  package_url: http://hackage.haskell.org/utf8-string
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/2lambda123/hulk1/blob/master/hulk.cabal
+  detection_source: hulk.cabal
+  last_updated_by: Chris Done
+  last_updated_on: 2014-03-21 12:06:55.000000000 Z
